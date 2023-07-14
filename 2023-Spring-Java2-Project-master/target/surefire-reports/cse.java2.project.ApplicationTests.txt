@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: cse.java2.project.ApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.123 s - in cse.java2.project.ApplicationTests
