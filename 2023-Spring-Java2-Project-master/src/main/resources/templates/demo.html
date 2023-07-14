@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Java2 Project Demo</title>
+    <!--  Import echarts lib by CDN, you can also import from local files  -->
+    <script src='https://cdn.jsdelivr.net/npm/echarts@5/dist/echarts.min.js'></script>
+    <script src="https://cdn.jsdelivr.net/npm/echarts-wordcloud@2/dist/echarts-wordcloud.min.js"></script>
+    <!--  Import jQuery lib by CDN, you can also import from local files  -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!--  Import the data files  -->
+    <script src='../js/wordcloud-demo.js'></script>
+    <script src='../js/piechart-demo.js'></script>
+    <script src='../js/init.js'></script>
+</head>
+<body style="text-align: center">
+<h1>Rust Tag</h1>
+<h4>This is just a demo page</h4>
+<div style="width: 100%;height: 60vh;display: flex">
+    <div style="width: 50%;height: 100%">
+        <div id="wordcloud" style="height: 100%;width: 100%"></div>
+    </div>
+    <div style="width: 50%;height: 100%">
+        <div id="piechart" style="height: 100%;width: 100%"></div>
+    </div>
+</div>
+</body>
+<script>
+    $(document).ready(fetchDataAndInitCharts);
+</script>
+</html>
